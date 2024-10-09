@@ -1,0 +1,15 @@
+[2024-09-09 10:15:23] INFO  - Starting invoice processing for file: invoice_12345.pdf
+[2024-09-09 10:15:24] INFO  - Successfully extracted data for invoice: INV001
+[2024-09-09 10:15:25] INFO  - Successfully extracted data for invoice: INV002
+[2024-09-09 10:15:26] ERROR - Failed to extract data for invoice: INV003
+[2024-09-09 10:15:26] ERROR - Reason: Missing buyer details in invoice INV003
+[2024-09-09 10:15:28] INFO  - Successfully extracted data for invoice: INV004
+[2024-09-09 10:15:30] INFO  - Successfully extracted data for invoice: INV005
+[2024-09-09 10:15:31] ERROR - Failed to extract data for invoice: INV006
+[2024-09-09 10:15:31] ERROR - Reason: Invalid date format in invoice INV006
+[2024-09-09 10:15:33] INFO  - Successfully extracted data for invoice: INV007
+[2024-09-09 10:15:34] INFO  - Successfully processed file: invoice_12345.pdf
+[2024-09-09 10:15:35] INFO  - Total invoices processed: 7
+[2024-09-09 10:15:35] INFO  - Successful extractions: 5
+[2024-09-09 10:15:35] INFO  - Failed extractions: 2
+[2024-09-09 10:15:36] INFO  - End of processing for file: invoice_12345.pdf
